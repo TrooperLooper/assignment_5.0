@@ -1,0 +1,14 @@
+.square_1 {
+    background-color: #F48C06;
+    height:160px;
+    width:468px;
+}
+
+body {background-color: #9D0208;} 
+
+.firstblock
+{
+width:468px;
+height:160px;
+position:absolute;
+}
