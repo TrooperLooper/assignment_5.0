@@ -1,14 +1,123 @@
-.square_1 {
-    background-color: #F48C06;
-    height:160px;
-    width:468px;
+.layout-one {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #370617;
+
 }
 
-body {background-color: #9D0208;} 
+.box-one__box {
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    filter:drop-shadow(2px 2px 4px rgba(0,0,0,0.25));
+    text-align: center;
+    
+}
 
-.firstblock
-{
-width:468px;
-height:160px;
-position:absolute;
+.box-dropped__box {
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    align-self:end;
+    border-radius:5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    filter:drop-shadow(2px 2px 4px rgba(0,0,0,0.25));
+}
+
+.box-grow__box {
+    width: 78px;
+    height: 78px;
+    flex-grow: 2;
+    background-color: #9D0208;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    filter:drop-shadow(2px 2px 4px rgba(0,0,0,0.25));
+}
+
+
+
+.box-one {
+    width: 468px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: #F48C06;
+    border-radius: 5px;
+}
+
+.box-two {
+    width: 468px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #F48C06;
+    border-radius: 5px;
+}
+
+.box-three {
+    width: 468px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #F48C06;
+    border-radius: 5px;
+}
+
+.box-four {
+    width: 468px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: #F48C06;
+    border-radius: 5px;
+}
+
+.box-five {
+    width: 468px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    background-color: #F48C06;
+    border-radius: 5px;
+}
+
+.box-six {
+    width: 468px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #F48C06;
+    border-radius: 5px;
 }
